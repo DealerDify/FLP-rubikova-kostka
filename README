@@ -1,0 +1,18 @@
+Logický projekt 2 do FLP - Rubikova kostka - 2020/21
+Spuštení: flp20-log < inputs/inX.txt
+
+Program čte zadanou kostku ze stdin a hledá její řešení provedením tahů a postupným zanořováním (které zajistí, že je kostka vyřešena pomocí nejméně tahů).
+Ve složce inputs jsou soubory pojmenované inX.txt, které obsahují kostky které lze vyřešit pomocí X tahů.
+    příklad: flp20-log < inputs/in3.txt provede řešení kostky, která bude vyřešena pomocí 3 tahů
+
+Naměřený čas řešení dle počtu tahů:
+    0 tahů(složená kostka) - 0,015s
+    1 tah  - 0,016s
+    2 tahy - 0,016s
+    3 tahy - 0,016s
+    4 tahy - 0,064s
+    5 tahů - 0,453s
+    6 tahů - 4,859s
+    7 tahů - 47,936s
+    8 tahů - 7m 26,076s
+    9+ - netestováno (čas by byl příliš vysoký)
